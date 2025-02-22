@@ -8,4 +8,4 @@ jobs:
     environment: Dev
     steps:
       - name: Ouput env variable
-        run: This is my api key ${{ vars.API_URL }}
+        run: echo "This is my api key ${{ vars.API_URL }}"
