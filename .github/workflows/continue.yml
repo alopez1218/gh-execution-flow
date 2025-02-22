@@ -3,8 +3,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  get-env-variable:
+  get-dev-variable:
+    runs-on: ubuntu-latest
+    environment: Dev
+    steps:
+      - name: Ouput env variable
+        run: echo "This is my api key ${{ vars.REPO_DATABASE_URL }}"
+  get-repo-variable:
     runs-on: ubuntu-latest
     steps:
       - name: Ouput env variable
-        run: echo "This is my api key ${{ vars.API_URL }}"
+        run: echo "This is my api key ${{ vars.REPO_DATABASE_URL }}"
