@@ -5,7 +5,6 @@ on:
 jobs:
   get-env-variable:
     runs-on: ubuntu-latest
-    environment: Dev
     steps:
       - name: Ouput env variable
         run: echo "This is my api key ${{ vars.API_URL }}"
