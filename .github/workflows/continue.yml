@@ -1,0 +1,11 @@
+name: Testing Output and ENV Variables
+on:
+  workflow_dispatch:
+
+jobs:
+  get-env-variable:
+    runs-on: ubuntu-latest
+    environment: Dev
+    steps:
+      - name: Ouput env variable
+        run: This is my api key ${{ vars.API_URL }}
