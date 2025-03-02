@@ -44,6 +44,8 @@ jobs:
         with:
           name: test-report
           path: test.json
+      - name: test-message
+        run: echo "Hello, world!"
   build:
     needs: test
     runs-on: ubuntu-latest
