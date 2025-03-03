@@ -1,23 +1,97 @@
 {
-  "numTotalTestSuites": 1,
-  "numPassedTestSuites": 0,
-  "numFailedTestSuites": 1,
+  "numTotalTestSuites": 3,
+  "numPassedTestSuites": 3,
+  "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 0,
-  "numPassedTests": 0,
-  "numFailedTests": 0,
+  "numTotalTests": 5,
+  "numPassedTests": 3,
+  "numFailedTests": 2,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1662469084119,
+  "startTime": 1740967338134,
   "success": false,
   "testResults": [
     {
-      "assertionResults": [],
-      "startTime": 1662469084119,
-      "endTime": 1662469084119,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " adds 1 + 2 is equalt to 3",
+          "status": "passed",
+          "title": "adds 1 + 2 is equalt to 3",
+          "duration": 1,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " adds 1 + 2 is equalt to 3",
+          "status": "failed",
+          "title": "adds 1 + 2 is equalt to 3",
+          "duration": 2,
+          "failureMessages": [
+            "expected 3 to be 4 // Object.is equality"
+          ],
+          "location": {
+            "line": 9,
+            "column": 47
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " adds 1 + 2 is equalt to 3",
+          "status": "failed",
+          "title": "adds 1 + 2 is equalt to 3",
+          "duration": 0,
+          "failureMessages": [
+            "expected 3 to be 5 // Object.is equality"
+          ],
+          "location": {
+            "line": 13,
+            "column": 47
+          }
+        }
+      ],
+      "startTime": 1740967338904,
+      "endTime": 1740967338907,
+      "status": "failed",
+      "message": "",
+      "name": "/Users/anthonylopez/Downloads/01 Starting Project 2/src/mixins/sum.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should render a button",
+          "status": "passed",
+          "title": "should render a button",
+          "duration": 27,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should show the help area after clicking the button",
+          "status": "passed",
+          "title": "should show the help area after clicking the button",
+          "duration": 24,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1740967339070,
+      "endTime": 1740967339121,
       "status": "passed",
-      "message": "\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/max/development/teaching/gh-flow/src/components/HelpBox.jsx\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m5:20\u001b[22m  \u001b[31merror\u001b[39m  'title' is missing in props validation  \u001b[2mreact/prop-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m5:27\u001b[22m  \u001b[31merror\u001b[39m  'text' is missing in props validation   \u001b[2mreact/prop-types\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m✖ 2 problems (2 errors, 0 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
-      "name": "/Users/max/development/teaching/gh-flow/src/components/MainContent.test.jsx"
+      "message": "",
+      "name": "/Users/anthonylopez/Downloads/01 Starting Project 2/src/components/MainContent.test.jsx"
     }
   ]
 }
